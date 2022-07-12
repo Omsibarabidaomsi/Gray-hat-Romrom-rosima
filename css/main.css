@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/inter.ttf');
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Inter', Arial;
+}
+
+body{
+  margin: 0px;
+}
+
+ul, li, a{
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.bg-dark{
+  background: #444;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.d-flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.justify-content-around{
+  justify-content: space-around;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.mb-3{
+  margin-bottom: 3rem;
+}
+
+.mb-5{
+  margin-bottom: 5rem;
+}
+
+.vh-100{
+  height: 100vh;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.navbar-bg{
+  background-color: #111;
+  position: sticky;
+  top: 0;
+}
+
+.navbar{
+  display: flex;
+}
+
+.navbar-nav{
+  display: flex;
+}
+
+.nav-link{
+  padding: 15px 20px;
+  display: inline-block;
+  color: white;
+}
+
+.nav-link:hover{
+  text-shadow: 0px 0px 15px white;
+}
+
+.landing-bg{
+  background-image: url('../image/bg.png');
+  background-color: rgba(0, 0, 0, 0.85);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+}
+
+.display-1{
+  font-size: 58px;
+}
+
+.display-2{
+  font-size: 34px;
+}
+
+.display-3{
+  font-size: 24px;
+}
+
+.display-4{
+  font-size: 18px;
+}
+
+.text-white{
+  color: white;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.card-1{
+  height: 200px;
+  width: 300px;
+  background-color: #444;
+  box-shadow: -5px 5px 15px #666;
+}
+
+.card-2{
+  height: 250px;
+  width: 250px;
+  background-color: #444;
+  box-shadow: -5px 5px 15px #666;
+  margin: 1em;
+}
+
+.mt-5{
+  margin-top: 5rem;
+}
+
+.font-weight-bold{
+  font-weight: bold;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.w-75{
+  width: 75%;
+  margin: 0px auto;
+}
+
+.text-black{
+  color: #333;
+}
+
+.image{
+  height: 400px;
+  width: 300px;
+  border: 8px solid rgb(200, 200, 200);
+}
+
+.codm{
+  background-image: url('../image/codm.jpg');
+}
+
+.ml{
+  background-image: url('../image/ml.jpg');
+}
+
+.league{
+  background-image: url('../image/league.png');
+}
+
+.valo{
+  background-image: url('../image/valorant.png');
+}
+
+.axie{
+  background-image: url('../image/axieinfinity.jpg');
+}
+
+.h-100{
+  height: 100%;
+}
+
+
+.codm, .ml, .league, .valo, .axie{
+  background-color: rgba(0, 0, 0, 0.85);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.codm:hover, .ml:hover, .league:hover, .valo:hover, .axie:hover{
+  background-blend-mode: darken;
+}
+
+.list{
+  display: none;
+}
+
+.codm:hover .list,
+.ml:hover .list,
+.league:hover .list,
+.valo:hover .list,
+.axie:hover .list{
+  display: flex;
+}
